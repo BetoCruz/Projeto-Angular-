@@ -1,3 +1,5 @@
+// Aqui colocamos todas as depêndencias do projeto, tudo o que o projeto precisa para funcionar 
+// será declarado aqui.
 {
   "name": "livro-angular",
   "version": "0.0.0",
