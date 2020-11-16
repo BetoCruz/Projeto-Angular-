@@ -1,4 +1,3 @@
-//***O arquivo polifills.ts são bibliotecas que auxiliam no projeto para a codificação de javascript.***
 /**
  * This file includes polyfills needed by Angular and is loaded before the app.
  * You can add your own extra polyfills to this file.

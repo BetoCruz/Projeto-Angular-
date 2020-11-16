@@ -1,5 +1,3 @@
-//O arquivo tslint.json estão contidas as configurações para usar no comando "ng lint", 
-// que são as boas praticas de desenvolvimento do Angular.
 {
   "extends": "tslint:recommended",
   "rulesDirectory": [

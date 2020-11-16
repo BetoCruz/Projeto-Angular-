@@ -1,6 +1,3 @@
-//Corresponde  ao *angular-cli.json do Angular2*. Neste arquivo temos as informações e configurações do projeto,
-//como o nome do projeto, sua versão, caminhos dos arquivos internos, configuração de teste, de estilo,
-//pacotes e objetos. É uma representação do projeto, o que ele tem e o que contem.
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
