@@ -1,0 +1,15 @@
+<p>
+  lista-pessoa works!
+</p>
+
+<!--[(ngModel)]="nome" usar com input-->
+<input  type="text"  >
+<p>{{nome}}</p>
+
+<h2>Lista de Pessoas</h2>
+<ul>
+  <!--uso da diretiva *ngFor-->
+  <li *ngFor="let pessoa of pessoas" >
+    {{pessoa}}
+  </li>
+</ul>
