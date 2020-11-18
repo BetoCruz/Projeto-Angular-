@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { from } from 'rxjs';
+
+import {AlertaService} from './alerta.service'
 
 @Component({
   selector: 'app-root',
@@ -11,8 +14,17 @@ export class AppComponent {
 
   foto: string = 'favicon.ico';
 
-  msgAlerta(): void {
-    alert('Projeto Angular');
+  constructor( private service: AlertaService ){
+    
   }
+
+  enviarMsg() : void {
+    this.service.msgAlerta();
+  }
+
+
+  //msgAlerta(): void {
+  //  alert('Projeto Angular');
+  //}
   
 }
